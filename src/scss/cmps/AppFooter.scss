@@ -26,3 +26,14 @@ height: 100px;
             }
         }
     }
+
+
+    
+@media (max-width: $main-layout-wide-phone) {
+    .main-footer {
+        .footer-container {
+            max-width: $main-layout-phone;
+        }
+
+    }
+}

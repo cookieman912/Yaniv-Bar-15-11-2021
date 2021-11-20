@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(5, minmax(150px, 1fr));
     grid-gap: 2rem;
-    // margin-bottom: 1rem;
     margin:auto;
     padding-left:0px;
 
@@ -33,3 +32,13 @@
         
     }
 }
+
+@media (max-width: $main-layout-wide-phone) {
+    .temperature-list {
+     
+        grid-template-columns: repeat(1, minmax(150px, 1fr));
+        width: 100%;
+        // grid-gap: rem;
+    }
+}
+
