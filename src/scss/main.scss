@@ -1,0 +1,19 @@
+//general
+@import './etc/variables.scss';
+@import './etc/setup.scss';
+
+
+
+
+
+
+//cmps
+@import './cmps/AppHeader.scss';
+@import './cmps/SearchBar.scss';
+@import './cmps/CurrentLoacation.scss';
+@import './cmps//TemperatureList.scss';
+@import './cmps/AppFooter.scss';
+
+//pages
+@import './pages/HomePage.scss';
+@import './pages/Favorites.scss'

@@ -1,0 +1,35 @@
+.temperature-list{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    grid-gap: 2rem;
+    // margin-bottom: 1rem;
+    margin:auto;
+    padding-left:0px;
+
+    li{ background-color: #96eef5;
+        border:2px solid white;
+        border-radius:0.5em;
+        height:200px;
+        font-size:1.2em;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    }
+
+    @media (max-width: $main-layout-pc) {
+    .temperature-list {
+     
+        grid-template-columns: repeat(3, minmax(150px, 1fr));
+        
+    }
+}
+
+@media (max-width: $main-layout-tablet) {
+    .temperature-list {
+     
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+        
+    }
+}

@@ -1,0 +1,72 @@
+.favorites {
+    max-width: $main-layout-pc;
+    margin: auto;
+    margin-top: 60px;
+    ul {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(200px, 1fr));
+        grid-gap: 2rem;
+        margin: auto;
+        padding-left: 0px;
+        width: 1400px;
+
+        li {
+            background-color: $panelColor;
+            border: 2px solid white;
+            border-radius: 0.5em;
+            height: 300px;
+            font-size: 1.2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            button {
+                background-color: $buttonColor;
+                border: none;
+                border-top: 4px solid white;
+                font-size: 1.5em;
+                color: white;
+                border-radius: 0.5em;
+                padding: 11px 25px 10px;
+            }
+            button:hover {
+                cursor: pointer;
+                background-color: red;
+            }
+        }
+        li:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: $main-layout-pc) {
+    .favorites {
+        max-width: $main-layout-tablet;
+        ul {
+            width: 1050px;
+            grid-template-columns: repeat(3, minmax(100px, 1fr));
+        }
+        li:last-child{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: $main-layout-tablet) {
+    .favorites {
+        ul {
+            max-width: 900px;
+            grid-template-columns: repeat(2, minmax(150px, 1fr));
+        }
+    }
+}
+
+@media (max-width: $main-layout-wide-phone) {
+    .favorites {
+        ul {
+             max-width: 300px;
+            grid-template-columns: repeat(1, minmax(100px, 1fr));
+        }
+    }
+}
