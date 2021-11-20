@@ -40,7 +40,6 @@ export default function CurrentLocation() {
     }
   }
 
-  console.log(weatherState);
 if(weatherState) return (
     <div className="current-location">
       <div className="current-location-details">
