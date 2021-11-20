@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Yaniv-Bar-15-11-2021/static/css/main.6e389715.chunk.css",
-    "main.js": "/Yaniv-Bar-15-11-2021/static/js/main.26d6d134.chunk.js",
-    "main.js.map": "/Yaniv-Bar-15-11-2021/static/js/main.26d6d134.chunk.js.map",
+    "main.css": "/Yaniv-Bar-15-11-2021/static/css/main.2e05db26.chunk.css",
+    "main.js": "/Yaniv-Bar-15-11-2021/static/js/main.5209f67c.chunk.js",
+    "main.js.map": "/Yaniv-Bar-15-11-2021/static/js/main.5209f67c.chunk.js.map",
     "runtime-main.js": "/Yaniv-Bar-15-11-2021/static/js/runtime-main.a13a9580.js",
     "runtime-main.js.map": "/Yaniv-Bar-15-11-2021/static/js/runtime-main.a13a9580.js.map",
     "static/js/2.b1ab22ca.chunk.js": "/Yaniv-Bar-15-11-2021/static/js/2.b1ab22ca.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f5e3085d.chunk.js": "/Yaniv-Bar-15-11-2021/static/js/3.f5e3085d.chunk.js",
     "static/js/3.f5e3085d.chunk.js.map": "/Yaniv-Bar-15-11-2021/static/js/3.f5e3085d.chunk.js.map",
     "index.html": "/Yaniv-Bar-15-11-2021/index.html",
-    "static/css/main.6e389715.chunk.css.map": "/Yaniv-Bar-15-11-2021/static/css/main.6e389715.chunk.css.map",
+    "static/css/main.2e05db26.chunk.css.map": "/Yaniv-Bar-15-11-2021/static/css/main.2e05db26.chunk.css.map",
     "static/js/2.b1ab22ca.chunk.js.LICENSE.txt": "/Yaniv-Bar-15-11-2021/static/js/2.b1ab22ca.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/Yaniv-Bar-15-11-2021/static/media/NunitoSans-Black.a2cd9dc8.ttf",
     "static/media/cloud-with-rain.23007305.png": "/Yaniv-Bar-15-11-2021/static/media/cloud-with-rain.23007305.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.a13a9580.js",
     "static/js/2.b1ab22ca.chunk.js",
-    "static/css/main.6e389715.chunk.css",
-    "static/js/main.26d6d134.chunk.js"
+    "static/css/main.2e05db26.chunk.css",
+    "static/js/main.5209f67c.chunk.js"
   ]
 }
