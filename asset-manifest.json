@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/cookieman912/Yaniv-Bar-15-11-2021/static/css/main.ae8502d1.chunk.css",
-    "main.js": "/cookieman912/Yaniv-Bar-15-11-2021/static/js/main.1175ac8a.chunk.js",
-    "main.js.map": "/cookieman912/Yaniv-Bar-15-11-2021/static/js/main.1175ac8a.chunk.js.map",
-    "runtime-main.js": "/cookieman912/Yaniv-Bar-15-11-2021/static/js/runtime-main.04f1d10a.js",
-    "runtime-main.js.map": "/cookieman912/Yaniv-Bar-15-11-2021/static/js/runtime-main.04f1d10a.js.map",
-    "static/js/2.b1ab22ca.chunk.js": "/cookieman912/Yaniv-Bar-15-11-2021/static/js/2.b1ab22ca.chunk.js",
-    "static/js/2.b1ab22ca.chunk.js.map": "/cookieman912/Yaniv-Bar-15-11-2021/static/js/2.b1ab22ca.chunk.js.map",
-    "static/js/3.f5e3085d.chunk.js": "/cookieman912/Yaniv-Bar-15-11-2021/static/js/3.f5e3085d.chunk.js",
-    "static/js/3.f5e3085d.chunk.js.map": "/cookieman912/Yaniv-Bar-15-11-2021/static/js/3.f5e3085d.chunk.js.map",
-    "index.html": "/cookieman912/Yaniv-Bar-15-11-2021/index.html",
-    "static/css/main.ae8502d1.chunk.css.map": "/cookieman912/Yaniv-Bar-15-11-2021/static/css/main.ae8502d1.chunk.css.map",
-    "static/js/2.b1ab22ca.chunk.js.LICENSE.txt": "/cookieman912/Yaniv-Bar-15-11-2021/static/js/2.b1ab22ca.chunk.js.LICENSE.txt",
-    "static/media/main.scss": "/cookieman912/Yaniv-Bar-15-11-2021/static/media/NunitoSans-Black.a2cd9dc8.ttf",
-    "static/media/cloud-with-rain.23007305.png": "/cookieman912/Yaniv-Bar-15-11-2021/static/media/cloud-with-rain.23007305.png",
-    "static/media/cloudy-day.ecd05671.png": "/cookieman912/Yaniv-Bar-15-11-2021/static/media/cloudy-day.ecd05671.png",
-    "static/media/rain.57bc7802.png": "/cookieman912/Yaniv-Bar-15-11-2021/static/media/rain.57bc7802.png",
-    "static/media/sun.5b095b3c.png": "/cookieman912/Yaniv-Bar-15-11-2021/static/media/sun.5b095b3c.png"
+    "main.css": "/Yaniv-Bar-15-11-2021/static/css/main.6e389715.chunk.css",
+    "main.js": "/Yaniv-Bar-15-11-2021/static/js/main.1175ac8a.chunk.js",
+    "main.js.map": "/Yaniv-Bar-15-11-2021/static/js/main.1175ac8a.chunk.js.map",
+    "runtime-main.js": "/Yaniv-Bar-15-11-2021/static/js/runtime-main.a13a9580.js",
+    "runtime-main.js.map": "/Yaniv-Bar-15-11-2021/static/js/runtime-main.a13a9580.js.map",
+    "static/js/2.b1ab22ca.chunk.js": "/Yaniv-Bar-15-11-2021/static/js/2.b1ab22ca.chunk.js",
+    "static/js/2.b1ab22ca.chunk.js.map": "/Yaniv-Bar-15-11-2021/static/js/2.b1ab22ca.chunk.js.map",
+    "static/js/3.f5e3085d.chunk.js": "/Yaniv-Bar-15-11-2021/static/js/3.f5e3085d.chunk.js",
+    "static/js/3.f5e3085d.chunk.js.map": "/Yaniv-Bar-15-11-2021/static/js/3.f5e3085d.chunk.js.map",
+    "index.html": "/Yaniv-Bar-15-11-2021/index.html",
+    "static/css/main.6e389715.chunk.css.map": "/Yaniv-Bar-15-11-2021/static/css/main.6e389715.chunk.css.map",
+    "static/js/2.b1ab22ca.chunk.js.LICENSE.txt": "/Yaniv-Bar-15-11-2021/static/js/2.b1ab22ca.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/Yaniv-Bar-15-11-2021/static/media/NunitoSans-Black.a2cd9dc8.ttf",
+    "static/media/cloud-with-rain.23007305.png": "/Yaniv-Bar-15-11-2021/static/media/cloud-with-rain.23007305.png",
+    "static/media/cloudy-day.ecd05671.png": "/Yaniv-Bar-15-11-2021/static/media/cloudy-day.ecd05671.png",
+    "static/media/rain.57bc7802.png": "/Yaniv-Bar-15-11-2021/static/media/rain.57bc7802.png",
+    "static/media/sun.5b095b3c.png": "/Yaniv-Bar-15-11-2021/static/media/sun.5b095b3c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.04f1d10a.js",
+    "static/js/runtime-main.a13a9580.js",
     "static/js/2.b1ab22ca.chunk.js",
-    "static/css/main.ae8502d1.chunk.css",
+    "static/css/main.6e389715.chunk.css",
     "static/js/main.1175ac8a.chunk.js"
   ]
 }
