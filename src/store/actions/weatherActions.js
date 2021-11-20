@@ -24,7 +24,6 @@ export function getCity(cityName) {
 
 
     catch (err) {
-      console.log('something went wrong!');
     }
 
 
@@ -32,7 +31,6 @@ export function getCity(cityName) {
 }
 
 export function changeMeasure(measure) {
-  console.log(measure);
   return async (dispatch) => {
     dispatch({ type: "CHANGE_MEASURE", measure })
   }

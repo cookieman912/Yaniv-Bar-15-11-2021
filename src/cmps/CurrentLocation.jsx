@@ -11,6 +11,8 @@ export default function CurrentLocation() {
   const weatherState = useSelector((state) => state.weatherModule.forecast);
   const favoriteState = useSelector((state) => state.favoriteModule.favorites);
 
+
+
   function checkFavorites() {
 
     const isInFavorites = favoriteState.find((favorite) => {
@@ -38,7 +40,8 @@ export default function CurrentLocation() {
     }
   }
 
-  return (
+  console.log(weatherState);
+if(weatherState) return (
     <div className="current-location">
       <div className="current-location-details">
         {showWeatherConditions(weatherState[0].Day.IconPhrase)}
@@ -64,4 +67,6 @@ export default function CurrentLocation() {
       </div>
     </div>
   );
+
+  return (<p>loading...</p>)
 }
