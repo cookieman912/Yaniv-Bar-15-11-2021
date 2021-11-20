@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Yaniv-Bar-15-11-2021/static/css/main.6e389715.chunk.css",
-    "main.js": "/Yaniv-Bar-15-11-2021/static/js/main.1175ac8a.chunk.js",
-    "main.js.map": "/Yaniv-Bar-15-11-2021/static/js/main.1175ac8a.chunk.js.map",
+    "main.js": "/Yaniv-Bar-15-11-2021/static/js/main.26d6d134.chunk.js",
+    "main.js.map": "/Yaniv-Bar-15-11-2021/static/js/main.26d6d134.chunk.js.map",
     "runtime-main.js": "/Yaniv-Bar-15-11-2021/static/js/runtime-main.a13a9580.js",
     "runtime-main.js.map": "/Yaniv-Bar-15-11-2021/static/js/runtime-main.a13a9580.js.map",
     "static/js/2.b1ab22ca.chunk.js": "/Yaniv-Bar-15-11-2021/static/js/2.b1ab22ca.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.a13a9580.js",
     "static/js/2.b1ab22ca.chunk.js",
     "static/css/main.6e389715.chunk.css",
-    "static/js/main.1175ac8a.chunk.js"
+    "static/js/main.26d6d134.chunk.js"
   ]
 }
