@@ -8,7 +8,7 @@ export default function TemperatureList() {
   if(weatherState) return (
     <ul className='temperature-list'>
        { weatherState.map(day =>{
-         return <TemperatureCard day={day} />
+         return <TemperatureCard day={day} key={day.Date} />
        })}
     </ul>
 

@@ -7,12 +7,12 @@ export default function SearchBar() {
   const dispatch = useDispatch();
   const { value: nameValue, bind, reset } = useInput("");
 
-
   return (
     <form
       className="search-bar"
       onSubmit={() => {
         dispatch(getCity(nameValue));
+        reset();
       }}
     >
       <input type="text" {...bind} placeholder="Type here your desired city" />
