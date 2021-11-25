@@ -34,12 +34,22 @@ async function searchCity(cityName) {
 
 
 async function getForecast(cityKey) {
-
-    return axios.get(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityKey}?apikey=yG9cwpzS3KYzHg0h5iejNAFOvOcWmYz2&language=en-us&metric=true HTTP/1.1`)
+    try { 
+        const result= axios.get(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityKey}?apikey=yG9cwpzS3KYzHg0h5iejNAFOvOcWmYz2&language=en-us&metric=true HTTP/1.1`)
         .then((res) => {
             res = res.data.DailyForecasts
             return res
         })
+        return result
+    }
+    catch (error){
+   console.log('error has occured');
+    }
+    // return axios.get(`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityKey}?apikey=yG9cwpzS3KYzHg0h5iejNAFOvOcWmYz2&language=en-us&metric=true HTTP/1.1`)
+    //     .then((res) => {
+    //         res = res.data.DailyForecasts
+    //         return res
+    //     })
 }
 
 async function _cacheWeather() {

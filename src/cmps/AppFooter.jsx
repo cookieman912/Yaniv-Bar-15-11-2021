@@ -4,7 +4,7 @@ export default function AppFooter() {
   return (
     <header className="main-footer">
       <div className="footer-container">
-        <p>CofeeRights ©</p>
+        <p>Cofeerights ©</p>
         </div>
     </header>
   );

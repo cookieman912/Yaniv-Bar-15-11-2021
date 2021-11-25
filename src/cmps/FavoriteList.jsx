@@ -5,11 +5,10 @@ import FavoriteCard from "./FavoriteCard";
 export default function FavoriteList() {
 
   const favoriteState= useSelector(state=> state.favoriteModule.favorites)
-   console.log(favoriteState);
   if(favoriteState) return (
     <ul>
        { favoriteState.map(favorite =>{
-         return <FavoriteCard favorite={favorite} />
+         return <FavoriteCard key={favorite._id} favorite={favorite} />
        })}
     </ul>
 

@@ -1,14 +1,15 @@
 .favorites {
+    // width:fit-content;
     max-width: $main-layout-pc;
     margin: auto;
     margin-top: 60px;
+    display: flex;
     ul {
         display: grid;
         grid-template-columns: repeat(5, minmax(200px, 1fr));
         grid-gap: 2rem;
         margin: auto;
         padding-left: 0px;
-        width: 1400px;
 
         li {
             background-color: $panelColor;
@@ -64,9 +65,13 @@
 
 @media (max-width: $main-layout-wide-phone) {
     .favorites {
+        margin: auto;
+        max-width: 95vw;
         ul {
-             max-width: 300px;
-            grid-template-columns: repeat(1, minmax(100px, 1fr));
+            max-width: 100%;
+            grid-template-columns: repeat(1, minmax(150px, 1fr));
         }
     }
 }
+
+

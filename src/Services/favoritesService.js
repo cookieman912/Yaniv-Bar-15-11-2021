@@ -40,7 +40,7 @@ async function saveFavorite(favorite) {
     }
 }
 
-async function deleteFavorite(_id) {
+ function deleteFavorite(_id) {
     const idx = favorites.findIndex(favorite => favorite._id === _id)
     favorites.splice(idx, 1)
     storageService.saveToStorage(FAVORITE_KEY, favorites)

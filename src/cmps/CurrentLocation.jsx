@@ -12,7 +12,6 @@ export default function CurrentLocation() {
   const favoriteState = useSelector((state) => state.favoriteModule.favorites);
 
 
-
   function checkFavorites() {
 
     const isInFavorites = favoriteState.find((favorite) => {
@@ -21,7 +20,6 @@ export default function CurrentLocation() {
     if (isInFavorites) return <p>♥</p> ;
     else return <p>♡</p> ;
   }
-  checkFavorites();
   const dispatch = useDispatch();
 
   function showWeatherConditions(condition) {
@@ -44,7 +42,6 @@ if(weatherState) return (
     <div className="current-location">
       <div className="current-location-details">
         {showWeatherConditions(weatherState[0].Day.IconPhrase)}
-
         <p>
           It is currently {weatherState[0].Day.IconPhrase} in{" "}
           {cityState.LocalizedName}{" "}
