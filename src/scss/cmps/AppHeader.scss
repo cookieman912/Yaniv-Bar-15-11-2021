@@ -37,19 +37,29 @@
                 }
             }
         }
-        button{
-            border:none;
+        button {
+            border: none;
             font-size: 1.5rem;
             margin-left: 20px;
             color: white;
             padding: 3px;
             background-color: transparent;
-            font-family: 'nunitosans';
+            font-family: "nunitosans";
             width: 30px;
         }
-        button:hover{
+        button:hover {
             cursor: pointer;
             box-shadow: -1px 5px 32px 5px #ffffff;
+        }
+
+        .hamburger {
+            display: none;
+            width: 100px;
+            aspect-ratio: 1;
+            z-index: 50;
+          img{
+              width:80px;
+          }
         }
     }
 }
@@ -72,18 +82,53 @@
 
 @media (max-width: $main-layout-wide-phone) {
     .main-header {
+        justify-content: space-between;
         .header-container {
-            max-width: $main-layout-phone;
+            max-width: 98%;
 
-            p {
-                font-size: 1.5rem;
-            }
-            ul{
-                li{
-                    font-size:1rem
+            //  p {
+            //     font-size: 1.5rem;
+            // }
+            // ul {
+            //     li {
+            //         font-size: 1rem;
+            //    }
+            // }
+
+            ul {
+                z-index: 100;
+                background-color: rgba(0, 0, 0, 0.4);
+                position: absolute;
+                right: 0px;
+                top: 100px;
+                flex-direction: column;
+                gap: 10px;
+                justify-content: flex-start;
+                li {
+                    margin: 20px 20px 20px;
+                    button {
+                        margin: 0px;
+                    }
                 }
             }
-        }
 
+            .hidden {
+                position: absolute;
+                // right:-300px;
+                transition: 0.3s;
+                transform: translate(300px);
+            }
+
+            .visible {
+                position: absolute;
+                transition: 0.3s;
+                transform: translate(0px);
+                // right:0px;
+            }
+
+            .hamburger {
+                display: block;
+            }
+        }
     }
 }

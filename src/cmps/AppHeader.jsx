@@ -3,10 +3,22 @@ import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { changeMeasure } from "../store/actions/weatherActions";
 import { useDispatch } from "react-redux";
+import { useRef } from "react";
+import hamburgerImg from '../imgs/hamburger.png';
+
 export default function AppHeader() {
   const measureState = useSelector((state) => state.weatherModule.measure);
 
   const dispatch = useDispatch();
+
+  const navEl = useRef(null);
+
+  function hamburgerClicked() {
+    console.log(navEl);
+    if (navEl.current.className.includes("visible")) {
+      navEl.current.className = "hidden";
+    } else navEl.current.className = "visible";
+  }
 
   function measureButton() {
     if (measureState === "farenheit")
@@ -23,7 +35,7 @@ export default function AppHeader() {
     <header className="main-header">
       <div className="header-container">
         <p>Forecastio</p>
-        <ul>
+        <ul ref={navEl}>
           <li>{measureButton()}</li>
           <li>
             <NavLink activeClassName="active-nav" exact to="/">
@@ -36,6 +48,9 @@ export default function AppHeader() {
             </NavLink>
           </li>
         </ul>
+        <button className="hamburger" onClick={() => hamburgerClicked()}>
+          <img src={hamburgerImg} alt="hamburger menu" />
+        </button>
       </div>
     </header>
   );
